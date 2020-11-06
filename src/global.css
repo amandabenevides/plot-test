@@ -1,0 +1,72 @@
+/*Global Styles*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: #7aa1d2; /* fallback for old browsers */
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  font-size: initial !important;
+}
+
+:focus {
+  outline: none !important;
+}
+
+/*Buttons*/
+
+input {
+  border-radius: 10px;
+  border: 2px #7ca2d2;
+  border-style: solid;
+  padding: 0.2em;
+  background: #ffff;
+  font-weight: bold;
+}
+
+button {
+  width: 6em;
+  border-radius: 10px;
+  border: 2px #7ca2d2;
+  border-style: solid;
+  padding: 0.2em;
+  background: #ffff;
+  font-weight: bold;
+  transition: all 0.2s;
+  margin-right: 4px;
+  margin-top: 0.5em;
+}
+
+button:hover {
+  background: #5a8bcd;
+}
